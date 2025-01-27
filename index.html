@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Institut de Logística de Barcelona</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="futurista">
+        <h1 data-text="Institut de Logística">Institut de Logística</h1>
+        <div class="hologram-effect"></div>
+    </header>
+
+    <nav class="futurista">
+        <input id="checkbox" type="checkbox">
+        <label class="toggle" for="checkbox">
+            <div class="bars bar1"></div>
+            <div class="bars bar2"></div>
+            <div class="bars bar3"></div>
+        </label>
+
+        <ul class="menu-futurista">
+            <li><a href="#home" class="neon-link">Home</a></li>
+            <li><a href="#estudis" class="neon-link">Estudis</a></li>
+            <li><a href="#on-estem" class="neon-link">On estem</a></li>
+            <li><a href="#contacte" class="neon-link">Contacte</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <!-- Carrusel futurista -->
+        <section class="carrusel-futurista">
+            <div class="slides-container">
+                <div class="slide active" style="background-image: url('https://www.wtcbarcelona.com/wp-content/uploads/2019/10/WTC2.jpg')"></div>
+                <div class="slide" style="background-image: url('https://foro.ojodigital.com/uploads/default/original/2X/9/9168a01af6ebb8b2b30ffddffd5722ede691ffff.jpeg')"></div>
+                <div class="slide" style="background-image: url('https://agora.xtec.cat/ilb/wp-content/uploads/usu2296/2022/03/Foto_02_seu_provisional-1024x683.jpg')"></div>
+            </div>
+            <button class="control prev">❮</button>
+            <button class="control next">❯</button>
+            <div class="dots-container"></div>
+        </section>
+
+        <!-- Secciones futuristas -->
+        <section id="estudis" class="glass-panel">
+            <h2 class="neon-title">📚 Els nostres estudis</h2>
+            <article class="hologram-card">
+                <h3>🚀 Grau en Logística Avançada</h3>
+                <p>Tecnologia blockchain i IA aplicada a la cadena de subministrament...</p>
+            </article>
+            <article class="hologram-card">
+                <h3>🤖 Màsters Especialitzats</h3>
+                <p>Realitat virtual per a simulacions logístiques...</p>
+            </article>
+        </section>
+
+        <section id="on-estem" class="glass-panel">
+            <h2 class="neon-title">📍 On estem</h2>
+            <div class="mapa-holografico">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2993.373231578093!2d2.173911315425993!3d41.38590197926447!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4a2523cd5f815%3A0xe4451cff2eaf231d!2sWorld%20Trade%20Center%20Barcelona!5e0!3m2!1ses!2ses!4v1691527654328!5m2!1ses!2ses" 
+                        style="border:0; border-radius: 15px;" allowfullscreen loading="lazy"></iframe>
+            </div>
+        </section>
+
+        <section id="contacte" class="glass-panel">
+            <h2 class="neon-title">📡 Contacte</h2>
+            <form class="form-futurista">
+                <div class="input-container">
+                    <input type="text" required class="neon-input">
+                    <label>Nom</label>
+                    <span class="focus-border"></span>
+                </div>
+                <div class="input-container">
+                    <input type="email" required class="neon-input">
+                    <label>Email</label>
+                    <span class="focus-border"></span>
+                </div>
+                <div class="input-container">
+                    <textarea required class="neon-input"></textarea>
+                    <label>Missatge</label>
+                    <span class="focus-border"></span>
+                </div>
+                <button class="neon-button">
+                    <span class="neon-text">Enviar</span>
+                    <div class="neon-effect"></div>
+                </button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="futurista">
+        <p class="neon-text">© 2024 ILB - <span class="cyber-glitch">Innovant el futur logístic</span></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
