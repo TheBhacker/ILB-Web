@@ -307,6 +307,22 @@ header h1 {
         transition: right 0.3s ease-in-out;
     }
 
+@media (max-width: 768px) {
+    header.futurista h1 {
+        font-size: 2rem; /* Reducimos el tamaño del texto */
+        width: 80%; /* Ajustamos el ancho al 80% */
+        margin: 0 auto; /* Centramos el texto */
+    }
+}
+
+@media (max-width: 480px) {
+    header.futurista h1 {
+        font-size: 1.5rem; /* Reducimos aún más el tamaño en móviles */
+        width: 70%; /* Ajustamos el ancho al 70% */
+    }
+}
+
+
     #checkbox:checked ~ .menu-futurista {
         right: 1rem;
     }
